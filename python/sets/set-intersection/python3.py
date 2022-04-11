@@ -5,5 +5,5 @@ if __name__ == "__main__":
     set_eng_sub = set(map(int, input().split()))
     num_french_sub = int(input())
     set_fren_sub = set(map(int, input().split()))
-    set_eng_french = set_eng_sub.symmetric_difference(set_fren_sub)
+    set_eng_french = set_eng_sub.intersection(set_fren_sub)
     print(len(set_eng_french))

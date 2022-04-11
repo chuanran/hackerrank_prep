@@ -18,4 +18,3 @@ if __name__ == "__main__":
     happiness = cal_happiness(arr, set_a, set_b)
     print(happiness)
 
-

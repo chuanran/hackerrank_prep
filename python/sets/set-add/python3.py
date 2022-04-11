@@ -6,4 +6,3 @@ if __name__ == "__main__":
     for _ in range(num_stamps):
         country_stamp_set.add(input())
     print(len(country_stamp_set))
-    
